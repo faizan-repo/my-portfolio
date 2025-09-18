@@ -157,7 +157,7 @@ function activatePage(pageName) {
 }
 
 // Load the active page from localStorage on page load
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const savedPage = localStorage.getItem('activePage');
   if (savedPage) {
     activatePage(savedPage);
